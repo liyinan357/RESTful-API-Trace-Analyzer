@@ -1,0 +1,24 @@
+{
+  "name": "trace-analyzer-gh-pages",
+  "version": "1.0.0",
+  "description": "OpenXC Vehicle Trace Analysis Tools ====================================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-prebuilt": "^1.6.5-prerelease.1",
+    "chart.js": "^2.7.0",
+    "chartinjs": "^1.0.0",
+    "chartjs": "^0.3.24",
+    "d3": "^4.10.2",
+    "express": "^4.15.4",
+    "jquery": "^3.2.1",
+    "leaflet": "^1.2.0",
+    "underscore": "^1.8.3",
+    "window": "^4.2.0"
+  }
+}

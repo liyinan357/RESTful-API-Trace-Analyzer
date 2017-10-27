@@ -1,0 +1,49 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<!-- chart.js -->
+
+	<!-- js -->
+	<!-- underscore.js -->
+	<script src="js/underscore-min.js"></script>
+	<!-- chart.js -->
+  	<script src="js/Chart.js"></script>
+  	<!-- d3.js -->
+    <script src="js/d3.v3.js"></script>
+    <!-- box.js -->
+    <script src="js/box.js"></script>
+	<!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  	<!-- local js -->
+	<script src="js/controller.js"></script>
+	
+	<title>OpenXC Vehicle Data Visualization</title>
+</head>
+<body>
+	<div class="container">
+		<h2>Remotely calling Trace Analyzer</h2>
+	
+		step 1: <input id="sendURL" type="submit" value="sendURL"/><br />
+		step 2: <input id="processData" type="submit" value="retrieve and process data from received URL" /><br />
+		step 3: <input id="getPosition" type="submit" value="getPosition" /><br />
+		step 4: <input id="display" type="submit" value="displayResults" /><br />
+		<hr />
+		<h2 id="step1"></h2>
+		<h2 id="step2"></h2>
+		<h2 id="step3"></h2>
+		<hr id="line"/>
+		<!-- <div id="graphMPG"></div> -->
+		<div id="totalFuelConsumed"></div>
+		<div id="OverallMPG"></div>
+		<div id="barChartData"></div>
+	</div>
+	<label id="total-fuel-consumed-hidden" hidden></label>
+</body>
+</html>

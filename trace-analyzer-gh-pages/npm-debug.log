@@ -1,0 +1,870 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'canvas-prebuilt' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData canvas-prebuilt@^1.6.5-prerelease.1
+8 silly fetchNamedPackageData canvas-prebuilt
+9 silly mapToRegistry name canvas-prebuilt
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'canvas-prebuilt',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'canvas-prebuilt',
+12 silly mapToRegistry   name: 'canvas-prebuilt',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/canvas-prebuilt
+14 verbose request uri https://registry.npmjs.org/canvas-prebuilt
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 19:43:25
+17 verbose request id fed5443634b064a2
+18 verbose etag W/"59aecf77-4331"
+19 verbose lastModified Tue, 05 Sep 2017 16:23:19 GMT
+20 http request GET https://registry.npmjs.org/canvas-prebuilt
+21 http 304 https://registry.npmjs.org/canvas-prebuilt
+22 verbose headers { date: 'Wed, 04 Oct 2017 23:43:26 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"59aecf77-4331"',
+22 verbose headers   age: '56',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-mdw17347-MDW',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1507160606.044654,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Wed, 04 Oct 2017 23:43:26 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"59aecf77-4331"',
+23 silly get     age: '56',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-mdw17347-MDW',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1507160606.044654,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/canvas-prebuilt from cache
+25 verbose get saving canvas-prebuilt to C:\Users\Yinan Li\AppData\Roaming\npm-cache\registry.npmjs.org\canvas-prebuilt\.cache.json
+26 verbose correctMkdir C:\Users\Yinan Li\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule canvas-prebuilt@1.6.5-prerelease.1 checking installable status
+40 silly cache add args [ 'canvas-prebuilt@^1.6.5-prerelease.1', null ]
+41 verbose cache add spec canvas-prebuilt@^1.6.5-prerelease.1
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'canvas-prebuilt@^1.6.5-prerelease.1',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'canvas-prebuilt',
+42 silly cache add   name: 'canvas-prebuilt',
+42 silly cache add   rawSpec: '^1.6.5-prerelease.1',
+42 silly cache add   spec: '>=1.6.5-prerelease.1 <2.0.0',
+42 silly cache add   type: 'range' }
+43 silly addNamed canvas-prebuilt@>=1.6.5-prerelease.1 <2.0.0
+44 verbose addNamed ">=1.6.5-prerelease.1 <2.0.0" is a valid semver range for canvas-prebuilt
+45 silly addNameRange { name: 'canvas-prebuilt',
+45 silly addNameRange   range: '>=1.6.5-prerelease.1 <2.0.0',
+45 silly addNameRange   hasData: false }
+46 silly mapToRegistry name canvas-prebuilt
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'canvas-prebuilt',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'canvas-prebuilt',
+49 silly mapToRegistry   name: 'canvas-prebuilt',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/canvas-prebuilt
+51 verbose addNameRange registry:https://registry.npmjs.org/canvas-prebuilt not in flight; fetching
+52 verbose get https://registry.npmjs.org/canvas-prebuilt not expired, no request
+53 silly addNameRange number 2 { name: 'canvas-prebuilt',
+53 silly addNameRange   range: '>=1.6.5-prerelease.1 <2.0.0',
+53 silly addNameRange   hasData: true }
+54 silly addNameRange versions [ 'canvas-prebuilt',
+54 silly addNameRange   [ '1.4.0',
+54 silly addNameRange     '1.5.0',
+54 silly addNameRange     '1.6.0',
+54 silly addNameRange     '1.6.5-prerelease.1',
+54 silly addNameRange     '2.0.0-alpha.1',
+54 silly addNameRange     '2.0.0-alpha.2',
+54 silly addNameRange     '2.0.0-alpha.4',
+54 silly addNameRange     '2.0.0-alpha.5' ] ]
+55 silly addNamed canvas-prebuilt@1.6.5-prerelease.1
+56 verbose addNamed "1.6.5-prerelease.1" is a plain semver version for canvas-prebuilt
+57 silly cache afterAdd canvas-prebuilt@1.6.5-prerelease.1
+58 verbose afterAdd C:\Users\Yinan Li\AppData\Roaming\npm-cache\canvas-prebuilt\1.6.5-prerelease.1\package\package.json not in flight; writing
+59 verbose correctMkdir C:\Users\Yinan Li\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+60 verbose afterAdd C:\Users\Yinan Li\AppData\Roaming\npm-cache\canvas-prebuilt\1.6.5-prerelease.1\package\package.json written
+61 silly loadAllDepsIntoIdealTree Finishing
+62 silly loadIdealTree Finishing
+63 silly currentTree trace-analyzer-gh-pages@1.0.0
+63 silly currentTree +-- @types/node@6.0.88
+63 silly currentTree +-- abab@1.0.4
+63 silly currentTree +-- abbrev@1.1.1
+63 silly currentTree +-- accepts@1.3.4
+63 silly currentTree +-- acorn-globals@3.1.0
+63 silly currentTree +-- acorn@4.0.13
+63 silly currentTree +-- ajv@5.2.2
+63 silly currentTree +-- ansi-regex@2.1.1
+63 silly currentTree +-- aproba@1.2.0
+63 silly currentTree +-- are-we-there-yet@1.1.4
+63 silly currentTree +-- array-equal@1.0.0
+63 silly currentTree +-- array-flatten@1.1.1
+63 silly currentTree +-- asn1@0.2.3
+63 silly currentTree +-- assert-plus@1.0.0
+63 silly currentTree +-- asynckit@0.4.0
+63 silly currentTree +-- aws-sign2@0.7.0
+63 silly currentTree +-- aws4@1.6.0
+63 silly currentTree +-- balanced-match@1.0.0
+63 silly currentTree +-- bcrypt-pbkdf@1.0.1
+63 silly currentTree +-- block-stream@0.0.9
+63 silly currentTree +-- boom@4.3.1
+63 silly currentTree +-- brace-expansion@1.1.8
+63 silly currentTree +-- caseless@0.12.0
+63 silly currentTree +-- chart.js@2.7.0
+63 silly currentTree +-- chartinjs@1.0.0
+63 silly currentTree +-- chartjs-color-string@0.5.0
+63 silly currentTree +-- chartjs-color@2.2.0
+63 silly currentTree +-- chartjs@0.3.24
+63 silly currentTree +-- co@4.6.0
+63 silly currentTree +-- code-point-at@1.1.0
+63 silly currentTree +-- color-convert@0.5.3
+63 silly currentTree +-- color-name@1.1.3
+63 silly currentTree +-- combined-stream@1.0.5
+63 silly currentTree +-- commander@2.11.0
+63 silly currentTree +-- concat-map@0.0.1
+63 silly currentTree +-- console-control-strings@1.1.0
+63 silly currentTree +-- content-disposition@0.5.2
+63 silly currentTree +-- content-type-parser@1.0.1
+63 silly currentTree +-- content-type@1.0.4
+63 silly currentTree +-- cookie-signature@1.0.6
+63 silly currentTree +-- cookie@0.3.1
+63 silly currentTree +-- core-util-is@1.0.2
+63 silly currentTree +-- cryptiles@3.1.2
+63 silly currentTree | `-- boom@5.2.0
+63 silly currentTree +-- css-font-size-keywords@1.0.0
+63 silly currentTree +-- css-font-stretch-keywords@1.0.1
+63 silly currentTree +-- css-font-style-keywords@1.0.1
+63 silly currentTree +-- css-font-weight-keywords@1.0.0
+63 silly currentTree +-- css-global-keywords@1.0.1
+63 silly currentTree +-- css-list-helpers@1.0.1
+63 silly currentTree +-- css-system-font-keywords@1.0.0
+63 silly currentTree +-- cssom@0.3.2
+63 silly currentTree +-- cssstyle@0.2.37
+63 silly currentTree +-- d3-array@1.2.0
+63 silly currentTree +-- d3-axis@1.0.8
+63 silly currentTree +-- d3-brush@1.0.4
+63 silly currentTree +-- d3-chord@1.0.4
+63 silly currentTree +-- d3-collection@1.0.4
+63 silly currentTree +-- d3-color@1.0.3
+63 silly currentTree +-- d3-dispatch@1.0.3
+63 silly currentTree +-- d3-drag@1.1.1
+63 silly currentTree +-- d3-dsv@1.0.7
+63 silly currentTree +-- d3-ease@1.0.3
+63 silly currentTree +-- d3-force@1.0.6
+63 silly currentTree +-- d3-format@1.2.0
+63 silly currentTree +-- d3-geo@1.6.4
+63 silly currentTree +-- d3-hierarchy@1.1.5
+63 silly currentTree +-- d3-interpolate@1.1.5
+63 silly currentTree +-- d3-path@1.0.5
+63 silly currentTree +-- d3-polygon@1.0.3
+63 silly currentTree +-- d3-quadtree@1.0.3
+63 silly currentTree +-- d3-queue@3.0.7
+63 silly currentTree +-- d3-random@1.1.0
+63 silly currentTree +-- d3-request@1.0.6
+63 silly currentTree +-- d3-scale@1.0.6
+63 silly currentTree +-- d3-selection@1.1.0
+63 silly currentTree +-- d3-shape@1.2.0
+63 silly currentTree +-- d3-time-format@2.0.5
+63 silly currentTree +-- d3-time@1.0.7
+63 silly currentTree +-- d3-timer@1.0.7
+63 silly currentTree +-- d3-transition@1.1.0
+63 silly currentTree +-- d3-voronoi@1.1.2
+63 silly currentTree +-- d3-zoom@1.5.0
+63 silly currentTree +-- d3@4.10.2
+63 silly currentTree +-- dashdash@1.14.1
+63 silly currentTree +-- debug@2.6.8
+63 silly currentTree +-- deep-extend@0.4.2
+63 silly currentTree +-- deep-is@0.1.3
+63 silly currentTree +-- delayed-stream@1.0.0
+63 silly currentTree +-- delegates@1.0.0
+63 silly currentTree +-- depd@1.1.1
+63 silly currentTree +-- destroy@1.0.4
+63 silly currentTree +-- ecc-jsbn@0.1.1
+63 silly currentTree +-- ee-first@1.1.1
+63 silly currentTree +-- encodeurl@1.0.1
+63 silly currentTree +-- escape-html@1.0.3
+63 silly currentTree +-- escodegen@1.9.0
+63 silly currentTree +-- esprima@3.1.3
+63 silly currentTree +-- estraverse@4.2.0
+63 silly currentTree +-- esutils@2.0.2
+63 silly currentTree +-- etag@1.8.1
+63 silly currentTree +-- express@4.15.4
+63 silly currentTree +-- extend@3.0.1
+63 silly currentTree +-- extsprintf@1.3.0
+63 silly currentTree +-- fast-deep-equal@1.0.0
+63 silly currentTree +-- fast-levenshtein@2.0.6
+63 silly currentTree +-- finalhandler@1.0.6
+63 silly currentTree | `-- debug@2.6.9
+63 silly currentTree +-- forever-agent@0.6.1
+63 silly currentTree +-- form-data@2.3.1
+63 silly currentTree +-- forwarded@0.1.2
+63 silly currentTree +-- fresh@0.5.0
+63 silly currentTree +-- fs.realpath@1.0.0
+63 silly currentTree +-- fstream-ignore@1.0.5
+63 silly currentTree +-- fstream@1.0.11
+63 silly currentTree +-- gauge@2.7.4
+63 silly currentTree +-- getpass@0.1.7
+63 silly currentTree +-- glob@7.1.2
+63 silly currentTree +-- graceful-fs@4.1.11
+63 silly currentTree +-- har-schema@2.0.0
+63 silly currentTree +-- har-validator@5.0.3
+63 silly currentTree +-- has-unicode@2.0.1
+63 silly currentTree +-- hawk@6.0.2
+63 silly currentTree +-- hoek@4.2.0
+63 silly currentTree +-- html-encoding-sniffer@1.0.1
+63 silly currentTree +-- http-errors@1.6.2
+63 silly currentTree +-- http-signature@1.2.0
+63 silly currentTree +-- iconv-lite@0.4.13
+63 silly currentTree +-- inflight@1.0.6
+63 silly currentTree +-- inherits@2.0.3
+63 silly currentTree +-- ini@1.3.4
+63 silly currentTree +-- ipaddr.js@1.4.0
+63 silly currentTree +-- is-fullwidth-code-point@1.0.0
+63 silly currentTree +-- is-typedarray@1.0.0
+63 silly currentTree +-- isarray@1.0.0
+63 silly currentTree +-- isnumeric@0.2.0
+63 silly currentTree +-- isstream@0.1.2
+63 silly currentTree +-- jquery@3.2.1
+63 silly currentTree +-- jsbn@0.1.1
+63 silly currentTree +-- jsdom@11.2.0
+63 silly currentTree +-- json-schema-traverse@0.3.1
+63 silly currentTree +-- json-schema@0.2.3
+63 silly currentTree +-- json-stable-stringify@1.0.1
+63 silly currentTree +-- json-stringify-safe@5.0.1
+63 silly currentTree +-- jsonify@0.0.0
+63 silly currentTree +-- jsprim@1.4.1
+63 silly currentTree +-- leaflet@1.2.0
+63 silly currentTree +-- levn@0.3.0
+63 silly currentTree +-- lodash.sortby@4.7.0
+63 silly currentTree +-- lodash@4.17.4
+63 silly currentTree +-- media-typer@0.3.0
+63 silly currentTree +-- merge-descriptors@1.0.1
+63 silly currentTree +-- methods@1.1.2
+63 silly currentTree +-- mime-db@1.30.0
+63 silly currentTree +-- mime-types@2.1.17
+63 silly currentTree +-- mime@1.3.4
+63 silly currentTree +-- minimatch@3.0.4
+63 silly currentTree +-- minimist@0.0.8
+63 silly currentTree +-- mkdirp@0.5.1
+63 silly currentTree +-- moment@2.18.1
+63 silly currentTree +-- ms@2.0.0
+63 silly currentTree +-- negotiator@0.6.1
+63 silly currentTree +-- node-pre-gyp@0.6.38
+63 silly currentTree | +-- ajv@4.11.8
+63 silly currentTree | +-- assert-plus@0.2.0
+63 silly currentTree | +-- aws-sign2@0.6.0
+63 silly currentTree | +-- boom@2.10.1
+63 silly currentTree | +-- cryptiles@2.0.5
+63 silly currentTree | +-- form-data@2.1.4
+63 silly currentTree | +-- har-schema@1.0.5
+63 silly currentTree | +-- har-validator@4.2.1
+63 silly currentTree | +-- hawk@3.1.3
+63 silly currentTree | +-- hoek@2.16.3
+63 silly currentTree | +-- http-signature@1.1.1
+63 silly currentTree | +-- performance-now@0.2.0
+63 silly currentTree | +-- qs@6.4.0
+63 silly currentTree | +-- request@2.81.0
+63 silly currentTree | `-- sntp@1.0.9
+63 silly currentTree +-- nopt@4.0.1
+63 silly currentTree +-- npmlog@4.1.2
+63 silly currentTree +-- number-is-nan@1.0.1
+63 silly currentTree +-- nwmatcher@1.4.2
+63 silly currentTree +-- oauth-sign@0.8.2
+63 silly currentTree +-- object-assign@4.1.1
+63 silly currentTree +-- on-finished@2.3.0
+63 silly currentTree +-- once@1.4.0
+63 silly currentTree +-- optionator@0.8.2
+63 silly currentTree +-- os-homedir@1.0.2
+63 silly currentTree +-- os-tmpdir@1.0.2
+63 silly currentTree +-- osenv@0.1.4
+63 silly currentTree +-- parse-css-font@2.0.2
+63 silly currentTree +-- parse5@3.0.2
+63 silly currentTree +-- parseurl@1.3.2
+63 silly currentTree +-- path-is-absolute@1.0.1
+63 silly currentTree +-- path-to-regexp@0.1.7
+63 silly currentTree +-- performance-now@2.1.0
+63 silly currentTree +-- pn@1.0.0
+63 silly currentTree +-- prelude-ls@1.1.2
+63 silly currentTree +-- process-nextick-args@1.0.7
+63 silly currentTree +-- proxy-addr@1.1.5
+63 silly currentTree +-- punycode@1.4.1
+63 silly currentTree +-- qs@6.5.0
+63 silly currentTree +-- range-parser@1.2.0
+63 silly currentTree +-- rc@1.2.1
+63 silly currentTree | `-- minimist@1.2.0
+63 silly currentTree +-- readable-stream@2.3.3
+63 silly currentTree +-- request-promise-core@1.1.1
+63 silly currentTree +-- request-promise-native@1.0.5
+63 silly currentTree +-- request@2.82.0
+63 silly currentTree | `-- qs@6.5.1
+63 silly currentTree +-- rimraf@2.6.2
+63 silly currentTree +-- rw@1.3.3
+63 silly currentTree +-- safe-buffer@5.1.1
+63 silly currentTree +-- sax@1.2.4
+63 silly currentTree +-- semver@5.4.1
+63 silly currentTree +-- send@0.15.4
+63 silly currentTree +-- serve-static@1.12.4
+63 silly currentTree +-- set-blocking@2.0.0
+63 silly currentTree +-- setprototypeof@1.0.3
+63 silly currentTree +-- signal-exit@3.0.2
+63 silly currentTree +-- sntp@2.0.2
+63 silly currentTree +-- source-map@0.5.7
+63 silly currentTree +-- sshpk@1.13.1
+63 silly currentTree +-- statuses@1.3.1
+63 silly currentTree +-- stealthy-require@1.1.1
+63 silly currentTree +-- string_decoder@1.0.3
+63 silly currentTree +-- string-width@1.0.2
+63 silly currentTree +-- stringstream@0.0.5
+63 silly currentTree +-- strip-ansi@3.0.1
+63 silly currentTree +-- strip-json-comments@2.0.1
+63 silly currentTree +-- superagent
+63 silly currentTree +-- symbol-tree@3.2.2
+63 silly currentTree +-- tar-pack@3.4.0
+63 silly currentTree +-- tar@2.2.1
+63 silly currentTree +-- tcomb@2.7.0
+63 silly currentTree +-- tough-cookie@2.3.3
+63 silly currentTree +-- tr46@1.0.1
+63 silly currentTree | `-- punycode@2.1.0
+63 silly currentTree +-- tunnel-agent@0.6.0
+63 silly currentTree +-- tweetnacl@0.14.5
+63 silly currentTree +-- type-check@0.3.2
+63 silly currentTree +-- type-is@1.6.15
+63 silly currentTree +-- uid-number@0.0.6
+63 silly currentTree +-- underscore@1.8.3
+63 silly currentTree +-- units-css@0.4.0
+63 silly currentTree +-- unpipe@1.0.0
+63 silly currentTree +-- unquote@1.1.0
+63 silly currentTree +-- util-deprecate@1.0.2
+63 silly currentTree +-- utils-merge@1.0.0
+63 silly currentTree +-- uuid@3.1.0
+63 silly currentTree +-- vary@1.1.1
+63 silly currentTree +-- verror@1.10.0
+63 silly currentTree +-- viewport-dimensions@0.2.0
+63 silly currentTree +-- webidl-conversions@4.0.2
+63 silly currentTree +-- whatwg-encoding@1.0.1
+63 silly currentTree +-- whatwg-url@6.2.1
+63 silly currentTree +-- wide-align@1.1.2
+63 silly currentTree +-- window@4.2.0
+63 silly currentTree +-- wordwrap@1.0.0
+63 silly currentTree +-- wrappy@1.0.2
+63 silly currentTree +-- xml-name-validator@2.0.1
+63 silly currentTree `-- xmlhttprequest@1.8.0
+64 silly idealTree trace-analyzer-gh-pages@1.0.0
+64 silly idealTree +-- @types/node@6.0.88
+64 silly idealTree +-- abab@1.0.4
+64 silly idealTree +-- abbrev@1.1.1
+64 silly idealTree +-- accepts@1.3.4
+64 silly idealTree +-- acorn-globals@3.1.0
+64 silly idealTree +-- acorn@4.0.13
+64 silly idealTree +-- ajv@5.2.2
+64 silly idealTree +-- ansi-regex@2.1.1
+64 silly idealTree +-- aproba@1.2.0
+64 silly idealTree +-- are-we-there-yet@1.1.4
+64 silly idealTree +-- array-equal@1.0.0
+64 silly idealTree +-- array-flatten@1.1.1
+64 silly idealTree +-- asn1@0.2.3
+64 silly idealTree +-- assert-plus@1.0.0
+64 silly idealTree +-- asynckit@0.4.0
+64 silly idealTree +-- aws-sign2@0.7.0
+64 silly idealTree +-- aws4@1.6.0
+64 silly idealTree +-- balanced-match@1.0.0
+64 silly idealTree +-- bcrypt-pbkdf@1.0.1
+64 silly idealTree +-- block-stream@0.0.9
+64 silly idealTree +-- boom@4.3.1
+64 silly idealTree +-- brace-expansion@1.1.8
+64 silly idealTree +-- canvas-prebuilt@1.6.5-prerelease.1
+64 silly idealTree +-- caseless@0.12.0
+64 silly idealTree +-- chart.js@2.7.0
+64 silly idealTree +-- chartinjs@1.0.0
+64 silly idealTree +-- chartjs-color-string@0.5.0
+64 silly idealTree +-- chartjs-color@2.2.0
+64 silly idealTree +-- chartjs@0.3.24
+64 silly idealTree +-- co@4.6.0
+64 silly idealTree +-- code-point-at@1.1.0
+64 silly idealTree +-- color-convert@0.5.3
+64 silly idealTree +-- color-name@1.1.3
+64 silly idealTree +-- combined-stream@1.0.5
+64 silly idealTree +-- commander@2.11.0
+64 silly idealTree +-- concat-map@0.0.1
+64 silly idealTree +-- console-control-strings@1.1.0
+64 silly idealTree +-- content-disposition@0.5.2
+64 silly idealTree +-- content-type-parser@1.0.1
+64 silly idealTree +-- content-type@1.0.4
+64 silly idealTree +-- cookie-signature@1.0.6
+64 silly idealTree +-- cookie@0.3.1
+64 silly idealTree +-- core-util-is@1.0.2
+64 silly idealTree +-- cryptiles@3.1.2
+64 silly idealTree | `-- boom@5.2.0
+64 silly idealTree +-- css-font-size-keywords@1.0.0
+64 silly idealTree +-- css-font-stretch-keywords@1.0.1
+64 silly idealTree +-- css-font-style-keywords@1.0.1
+64 silly idealTree +-- css-font-weight-keywords@1.0.0
+64 silly idealTree +-- css-global-keywords@1.0.1
+64 silly idealTree +-- css-list-helpers@1.0.1
+64 silly idealTree +-- css-system-font-keywords@1.0.0
+64 silly idealTree +-- cssom@0.3.2
+64 silly idealTree +-- cssstyle@0.2.37
+64 silly idealTree +-- d3-array@1.2.0
+64 silly idealTree +-- d3-axis@1.0.8
+64 silly idealTree +-- d3-brush@1.0.4
+64 silly idealTree +-- d3-chord@1.0.4
+64 silly idealTree +-- d3-collection@1.0.4
+64 silly idealTree +-- d3-color@1.0.3
+64 silly idealTree +-- d3-dispatch@1.0.3
+64 silly idealTree +-- d3-drag@1.1.1
+64 silly idealTree +-- d3-dsv@1.0.7
+64 silly idealTree +-- d3-ease@1.0.3
+64 silly idealTree +-- d3-force@1.0.6
+64 silly idealTree +-- d3-format@1.2.0
+64 silly idealTree +-- d3-geo@1.6.4
+64 silly idealTree +-- d3-hierarchy@1.1.5
+64 silly idealTree +-- d3-interpolate@1.1.5
+64 silly idealTree +-- d3-path@1.0.5
+64 silly idealTree +-- d3-polygon@1.0.3
+64 silly idealTree +-- d3-quadtree@1.0.3
+64 silly idealTree +-- d3-queue@3.0.7
+64 silly idealTree +-- d3-random@1.1.0
+64 silly idealTree +-- d3-request@1.0.6
+64 silly idealTree +-- d3-scale@1.0.6
+64 silly idealTree +-- d3-selection@1.1.0
+64 silly idealTree +-- d3-shape@1.2.0
+64 silly idealTree +-- d3-time-format@2.0.5
+64 silly idealTree +-- d3-time@1.0.7
+64 silly idealTree +-- d3-timer@1.0.7
+64 silly idealTree +-- d3-transition@1.1.0
+64 silly idealTree +-- d3-voronoi@1.1.2
+64 silly idealTree +-- d3-zoom@1.5.0
+64 silly idealTree +-- d3@4.10.2
+64 silly idealTree +-- dashdash@1.14.1
+64 silly idealTree +-- debug@2.6.8
+64 silly idealTree +-- deep-extend@0.4.2
+64 silly idealTree +-- deep-is@0.1.3
+64 silly idealTree +-- delayed-stream@1.0.0
+64 silly idealTree +-- delegates@1.0.0
+64 silly idealTree +-- depd@1.1.1
+64 silly idealTree +-- destroy@1.0.4
+64 silly idealTree +-- ecc-jsbn@0.1.1
+64 silly idealTree +-- ee-first@1.1.1
+64 silly idealTree +-- encodeurl@1.0.1
+64 silly idealTree +-- escape-html@1.0.3
+64 silly idealTree +-- escodegen@1.9.0
+64 silly idealTree +-- esprima@3.1.3
+64 silly idealTree +-- estraverse@4.2.0
+64 silly idealTree +-- esutils@2.0.2
+64 silly idealTree +-- etag@1.8.1
+64 silly idealTree +-- express@4.15.4
+64 silly idealTree +-- extend@3.0.1
+64 silly idealTree +-- extsprintf@1.3.0
+64 silly idealTree +-- fast-deep-equal@1.0.0
+64 silly idealTree +-- fast-levenshtein@2.0.6
+64 silly idealTree +-- finalhandler@1.0.6
+64 silly idealTree | `-- debug@2.6.9
+64 silly idealTree +-- forever-agent@0.6.1
+64 silly idealTree +-- form-data@2.3.1
+64 silly idealTree +-- forwarded@0.1.2
+64 silly idealTree +-- fresh@0.5.0
+64 silly idealTree +-- fs.realpath@1.0.0
+64 silly idealTree +-- fstream-ignore@1.0.5
+64 silly idealTree +-- fstream@1.0.11
+64 silly idealTree +-- gauge@2.7.4
+64 silly idealTree +-- getpass@0.1.7
+64 silly idealTree +-- glob@7.1.2
+64 silly idealTree +-- graceful-fs@4.1.11
+64 silly idealTree +-- har-schema@2.0.0
+64 silly idealTree +-- har-validator@5.0.3
+64 silly idealTree +-- has-unicode@2.0.1
+64 silly idealTree +-- hawk@6.0.2
+64 silly idealTree +-- hoek@4.2.0
+64 silly idealTree +-- html-encoding-sniffer@1.0.1
+64 silly idealTree +-- http-errors@1.6.2
+64 silly idealTree +-- http-signature@1.2.0
+64 silly idealTree +-- iconv-lite@0.4.13
+64 silly idealTree +-- inflight@1.0.6
+64 silly idealTree +-- inherits@2.0.3
+64 silly idealTree +-- ini@1.3.4
+64 silly idealTree +-- ipaddr.js@1.4.0
+64 silly idealTree +-- is-fullwidth-code-point@1.0.0
+64 silly idealTree +-- is-typedarray@1.0.0
+64 silly idealTree +-- isarray@1.0.0
+64 silly idealTree +-- isnumeric@0.2.0
+64 silly idealTree +-- isstream@0.1.2
+64 silly idealTree +-- jquery@3.2.1
+64 silly idealTree +-- jsbn@0.1.1
+64 silly idealTree +-- jsdom@11.2.0
+64 silly idealTree +-- json-schema-traverse@0.3.1
+64 silly idealTree +-- json-schema@0.2.3
+64 silly idealTree +-- json-stable-stringify@1.0.1
+64 silly idealTree +-- json-stringify-safe@5.0.1
+64 silly idealTree +-- jsonify@0.0.0
+64 silly idealTree +-- jsprim@1.4.1
+64 silly idealTree +-- leaflet@1.2.0
+64 silly idealTree +-- levn@0.3.0
+64 silly idealTree +-- lodash.sortby@4.7.0
+64 silly idealTree +-- lodash@4.17.4
+64 silly idealTree +-- media-typer@0.3.0
+64 silly idealTree +-- merge-descriptors@1.0.1
+64 silly idealTree +-- methods@1.1.2
+64 silly idealTree +-- mime-db@1.30.0
+64 silly idealTree +-- mime-types@2.1.17
+64 silly idealTree +-- mime@1.3.4
+64 silly idealTree +-- minimatch@3.0.4
+64 silly idealTree +-- minimist@0.0.8
+64 silly idealTree +-- mkdirp@0.5.1
+64 silly idealTree +-- moment@2.18.1
+64 silly idealTree +-- ms@2.0.0
+64 silly idealTree +-- negotiator@0.6.1
+64 silly idealTree +-- node-pre-gyp@0.6.38
+64 silly idealTree | +-- ajv@4.11.8
+64 silly idealTree | +-- assert-plus@0.2.0
+64 silly idealTree | +-- aws-sign2@0.6.0
+64 silly idealTree | +-- boom@2.10.1
+64 silly idealTree | +-- cryptiles@2.0.5
+64 silly idealTree | +-- form-data@2.1.4
+64 silly idealTree | +-- har-schema@1.0.5
+64 silly idealTree | +-- har-validator@4.2.1
+64 silly idealTree | +-- hawk@3.1.3
+64 silly idealTree | +-- hoek@2.16.3
+64 silly idealTree | +-- http-signature@1.1.1
+64 silly idealTree | +-- performance-now@0.2.0
+64 silly idealTree | +-- qs@6.4.0
+64 silly idealTree | +-- request@2.81.0
+64 silly idealTree | `-- sntp@1.0.9
+64 silly idealTree +-- nopt@4.0.1
+64 silly idealTree +-- npmlog@4.1.2
+64 silly idealTree +-- number-is-nan@1.0.1
+64 silly idealTree +-- nwmatcher@1.4.2
+64 silly idealTree +-- oauth-sign@0.8.2
+64 silly idealTree +-- object-assign@4.1.1
+64 silly idealTree +-- on-finished@2.3.0
+64 silly idealTree +-- once@1.4.0
+64 silly idealTree +-- optionator@0.8.2
+64 silly idealTree +-- os-homedir@1.0.2
+64 silly idealTree +-- os-tmpdir@1.0.2
+64 silly idealTree +-- osenv@0.1.4
+64 silly idealTree +-- parse-css-font@2.0.2
+64 silly idealTree +-- parse5@3.0.2
+64 silly idealTree +-- parseurl@1.3.2
+64 silly idealTree +-- path-is-absolute@1.0.1
+64 silly idealTree +-- path-to-regexp@0.1.7
+64 silly idealTree +-- performance-now@2.1.0
+64 silly idealTree +-- pn@1.0.0
+64 silly idealTree +-- prelude-ls@1.1.2
+64 silly idealTree +-- process-nextick-args@1.0.7
+64 silly idealTree +-- proxy-addr@1.1.5
+64 silly idealTree +-- punycode@1.4.1
+64 silly idealTree +-- qs@6.5.0
+64 silly idealTree +-- range-parser@1.2.0
+64 silly idealTree +-- rc@1.2.1
+64 silly idealTree | `-- minimist@1.2.0
+64 silly idealTree +-- readable-stream@2.3.3
+64 silly idealTree +-- request-promise-core@1.1.1
+64 silly idealTree +-- request-promise-native@1.0.5
+64 silly idealTree +-- request@2.82.0
+64 silly idealTree | `-- qs@6.5.1
+64 silly idealTree +-- rimraf@2.6.2
+64 silly idealTree +-- rw@1.3.3
+64 silly idealTree +-- safe-buffer@5.1.1
+64 silly idealTree +-- sax@1.2.4
+64 silly idealTree +-- semver@5.4.1
+64 silly idealTree +-- send@0.15.4
+64 silly idealTree +-- serve-static@1.12.4
+64 silly idealTree +-- set-blocking@2.0.0
+64 silly idealTree +-- setprototypeof@1.0.3
+64 silly idealTree +-- signal-exit@3.0.2
+64 silly idealTree +-- sntp@2.0.2
+64 silly idealTree +-- source-map@0.5.7
+64 silly idealTree +-- sshpk@1.13.1
+64 silly idealTree +-- statuses@1.3.1
+64 silly idealTree +-- stealthy-require@1.1.1
+64 silly idealTree +-- string_decoder@1.0.3
+64 silly idealTree +-- string-width@1.0.2
+64 silly idealTree +-- stringstream@0.0.5
+64 silly idealTree +-- strip-ansi@3.0.1
+64 silly idealTree +-- strip-json-comments@2.0.1
+64 silly idealTree +-- superagent
+64 silly idealTree +-- symbol-tree@3.2.2
+64 silly idealTree +-- tar-pack@3.4.0
+64 silly idealTree +-- tar@2.2.1
+64 silly idealTree +-- tcomb@2.7.0
+64 silly idealTree +-- tough-cookie@2.3.3
+64 silly idealTree +-- tr46@1.0.1
+64 silly idealTree | `-- punycode@2.1.0
+64 silly idealTree +-- tunnel-agent@0.6.0
+64 silly idealTree +-- tweetnacl@0.14.5
+64 silly idealTree +-- type-check@0.3.2
+64 silly idealTree +-- type-is@1.6.15
+64 silly idealTree +-- uid-number@0.0.6
+64 silly idealTree +-- underscore@1.8.3
+64 silly idealTree +-- units-css@0.4.0
+64 silly idealTree +-- unpipe@1.0.0
+64 silly idealTree +-- unquote@1.1.0
+64 silly idealTree +-- util-deprecate@1.0.2
+64 silly idealTree +-- utils-merge@1.0.0
+64 silly idealTree +-- uuid@3.1.0
+64 silly idealTree +-- vary@1.1.1
+64 silly idealTree +-- verror@1.10.0
+64 silly idealTree +-- viewport-dimensions@0.2.0
+64 silly idealTree +-- webidl-conversions@4.0.2
+64 silly idealTree +-- whatwg-encoding@1.0.1
+64 silly idealTree +-- whatwg-url@6.2.1
+64 silly idealTree +-- wide-align@1.1.2
+64 silly idealTree +-- window@4.2.0
+64 silly idealTree +-- wordwrap@1.0.0
+64 silly idealTree +-- wrappy@1.0.2
+64 silly idealTree +-- xml-name-validator@2.0.1
+64 silly idealTree `-- xmlhttprequest@1.8.0
+65 silly generateActionsToTake Starting
+66 silly install generateActionsToTake
+67 silly generateActionsToTake Finishing
+68 silly diffTrees action count 1
+69 silly diffTrees add canvas-prebuilt@1.6.5-prerelease.1
+70 silly decomposeActions action count 8
+71 silly decomposeActions fetch canvas-prebuilt@1.6.5-prerelease.1
+72 silly decomposeActions extract canvas-prebuilt@1.6.5-prerelease.1
+73 silly decomposeActions test canvas-prebuilt@1.6.5-prerelease.1
+74 silly decomposeActions preinstall canvas-prebuilt@1.6.5-prerelease.1
+75 silly decomposeActions build canvas-prebuilt@1.6.5-prerelease.1
+76 silly decomposeActions install canvas-prebuilt@1.6.5-prerelease.1
+77 silly decomposeActions postinstall canvas-prebuilt@1.6.5-prerelease.1
+78 silly decomposeActions finalize canvas-prebuilt@1.6.5-prerelease.1
+79 silly runTopLevelLifecycles Starting
+80 silly executeActions Starting
+81 silly install executeActions
+82 silly doSerial global-install 0
+83 silly doParallel fetch 1
+84 verbose correctMkdir C:\Users\Yinan Li\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+85 verbose lock using C:\Users\Yinan Li\AppData\Roaming\npm-cache\_locks\staging-95db2a78efadabba.lock for C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging
+86 silly doParallel extract 1
+87 silly extract canvas-prebuilt@1.6.5-prerelease.1
+88 verbose unbuild node_modules\.staging\canvas-prebuilt-e6b358fe
+89 silly gentlyRm C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging\canvas-prebuilt-e6b358fe is being purged from base C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages
+90 verbose gentlyRm don't care about contents; nuking C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging\canvas-prebuilt-e6b358fe
+91 verbose tar unpack C:\Users\Yinan Li\AppData\Roaming\npm-cache\canvas-prebuilt\1.6.5-prerelease.1\package.tgz
+92 verbose tar unpacking to C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging\canvas-prebuilt-e6b358fe
+93 silly gentlyRm C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging\canvas-prebuilt-e6b358fe is being purged
+94 verbose gentlyRm don't care about contents; nuking C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging\canvas-prebuilt-e6b358fe
+95 silly gunzTarPerm modes [ '777', '666' ]
+96 silly gunzTarPerm extractEntry package.json
+97 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+98 silly gunzTarPerm extractEntry .npmignore
+99 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+100 silly gunzTarPerm extractEntry README.md
+101 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+102 silly gunzTarPerm extractEntry .travis.yml
+103 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+104 silly gunzTarPerm extractEntry appveyor.yml
+105 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+106 silly gunzTarPerm extractEntry canvas/package.json
+107 silly gunzTarPerm modified mode [ 'canvas/package.json', 420, 438 ]
+108 silly gunzTarPerm extractEntry canvas/.npmignore
+109 silly gunzTarPerm modified mode [ 'canvas/.npmignore', 420, 438 ]
+110 silly gunzTarPerm extractEntry canvas/index.js
+111 silly gunzTarPerm modified mode [ 'canvas/index.js', 420, 438 ]
+112 silly gunzTarPerm extractEntry canvas/History.md
+113 silly gunzTarPerm modified mode [ 'canvas/History.md', 420, 438 ]
+114 silly gunzTarPerm extractEntry canvas/Readme.md
+115 silly gunzTarPerm modified mode [ 'canvas/Readme.md', 420, 438 ]
+116 silly gunzTarPerm extractEntry canvas/binding.gyp
+117 silly gunzTarPerm modified mode [ 'canvas/binding.gyp', 493, 511 ]
+118 silly gunzTarPerm extractEntry canvas/.github/ISSUE_TEMPLATE.md
+119 silly gunzTarPerm modified mode [ 'canvas/.github/ISSUE_TEMPLATE.md', 420, 438 ]
+120 silly gunzTarPerm extractEntry canvas/lib/bindings.js
+121 silly gunzTarPerm modified mode [ 'canvas/lib/bindings.js', 420, 438 ]
+122 silly gunzTarPerm extractEntry canvas/lib/canvas.js
+123 silly gunzTarPerm modified mode [ 'canvas/lib/canvas.js', 420, 438 ]
+124 silly gunzTarPerm extractEntry canvas/lib/context2d.js
+125 silly gunzTarPerm modified mode [ 'canvas/lib/context2d.js', 420, 438 ]
+126 silly gunzTarPerm extractEntry canvas/lib/image.js
+127 silly gunzTarPerm modified mode [ 'canvas/lib/image.js', 420, 438 ]
+128 silly gunzTarPerm extractEntry canvas/lib/jpegstream.js
+129 silly gunzTarPerm modified mode [ 'canvas/lib/jpegstream.js', 420, 438 ]
+130 silly gunzTarPerm extractEntry canvas/lib/pdfstream.js
+131 silly gunzTarPerm modified mode [ 'canvas/lib/pdfstream.js', 420, 438 ]
+132 silly gunzTarPerm extractEntry canvas/lib/pngstream.js
+133 silly gunzTarPerm modified mode [ 'canvas/lib/pngstream.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry canvas/src/Image.cc
+135 silly gunzTarPerm modified mode [ 'canvas/src/Image.cc', 420, 438 ]
+136 silly gunzTarPerm extractEntry canvas/src/Canvas.cc
+137 silly gunzTarPerm modified mode [ 'canvas/src/Canvas.cc', 420, 438 ]
+138 silly gunzTarPerm extractEntry canvas/src/CanvasGradient.cc
+139 silly gunzTarPerm modified mode [ 'canvas/src/CanvasGradient.cc', 420, 438 ]
+140 silly gunzTarPerm extractEntry canvas/src/CanvasGradient.h
+141 silly gunzTarPerm modified mode [ 'canvas/src/CanvasGradient.h', 420, 438 ]
+142 silly gunzTarPerm extractEntry canvas/src/CanvasPattern.cc
+143 silly gunzTarPerm modified mode [ 'canvas/src/CanvasPattern.cc', 420, 438 ]
+144 silly gunzTarPerm extractEntry canvas/src/CanvasPattern.h
+145 silly gunzTarPerm modified mode [ 'canvas/src/CanvasPattern.h', 420, 438 ]
+146 silly gunzTarPerm extractEntry canvas/src/CanvasRenderingContext2d.cc
+147 silly gunzTarPerm modified mode [ 'canvas/src/CanvasRenderingContext2d.cc', 493, 511 ]
+148 silly gunzTarPerm extractEntry canvas/src/CanvasRenderingContext2d.h
+149 silly gunzTarPerm modified mode [ 'canvas/src/CanvasRenderingContext2d.h', 420, 438 ]
+150 silly gunzTarPerm extractEntry canvas/src/FontFace.cc
+151 silly gunzTarPerm modified mode [ 'canvas/src/FontFace.cc', 493, 511 ]
+152 silly gunzTarPerm extractEntry canvas/src/FontFace.h
+153 silly gunzTarPerm modified mode [ 'canvas/src/FontFace.h', 420, 438 ]
+154 silly gunzTarPerm extractEntry canvas/src/Canvas.h
+155 silly gunzTarPerm modified mode [ 'canvas/src/Canvas.h', 420, 438 ]
+156 silly gunzTarPerm extractEntry canvas/src/Image.h
+157 silly gunzTarPerm modified mode [ 'canvas/src/Image.h', 420, 438 ]
+158 silly gunzTarPerm extractEntry canvas/src/ImageData.cc
+159 silly gunzTarPerm modified mode [ 'canvas/src/ImageData.cc', 420, 438 ]
+160 silly gunzTarPerm extractEntry canvas/src/ImageData.h
+161 silly gunzTarPerm modified mode [ 'canvas/src/ImageData.h', 420, 438 ]
+162 silly gunzTarPerm extractEntry canvas/src/JPEGStream.h
+163 silly gunzTarPerm modified mode [ 'canvas/src/JPEGStream.h', 420, 438 ]
+164 silly gunzTarPerm extractEntry canvas/src/PNG.h
+165 silly gunzTarPerm modified mode [ 'canvas/src/PNG.h', 420, 438 ]
+166 silly gunzTarPerm extractEntry canvas/src/Point.h
+167 silly gunzTarPerm modified mode [ 'canvas/src/Point.h', 420, 438 ]
+168 silly gunzTarPerm extractEntry canvas/src/closure.h
+169 silly gunzTarPerm modified mode [ 'canvas/src/closure.h', 420, 438 ]
+170 silly gunzTarPerm extractEntry canvas/src/color.cc
+171 silly gunzTarPerm modified mode [ 'canvas/src/color.cc', 420, 438 ]
+172 silly gunzTarPerm extractEntry canvas/src/color.h
+173 silly gunzTarPerm modified mode [ 'canvas/src/color.h', 420, 438 ]
+174 silly gunzTarPerm extractEntry canvas/src/init.cc
+175 silly gunzTarPerm modified mode [ 'canvas/src/init.cc', 493, 511 ]
+176 silly gunzTarPerm extractEntry canvas/.travis.yml
+177 silly gunzTarPerm modified mode [ 'canvas/.travis.yml', 420, 438 ]
+178 silly gunzTarPerm extractEntry canvas/util/has_lib.sh
+179 silly gunzTarPerm modified mode [ 'canvas/util/has_lib.sh', 493, 511 ]
+180 silly gunzTarPerm extractEntry ci/release.js
+181 silly gunzTarPerm modified mode [ 'ci/release.js', 420, 438 ]
+182 silly gunzTarPerm extractEntry ci/install.sh
+183 silly gunzTarPerm modified mode [ 'ci/install.sh', 493, 511 ]
+184 silly gunzTarPerm extractEntry ci/linux/binding.gyp
+185 silly gunzTarPerm modified mode [ 'ci/linux/binding.gyp', 420, 438 ]
+186 silly gunzTarPerm extractEntry ci/linux/bundle.sh
+187 silly gunzTarPerm modified mode [ 'ci/linux/bundle.sh', 420, 438 ]
+188 silly gunzTarPerm extractEntry ci/linux/node_version.sh
+189 silly gunzTarPerm modified mode [ 'ci/linux/node_version.sh', 420, 438 ]
+190 silly gunzTarPerm extractEntry ci/linux/preinstall.sh
+191 silly gunzTarPerm modified mode [ 'ci/linux/preinstall.sh', 420, 438 ]
+192 silly gunzTarPerm extractEntry ci/osx/.npmignore
+193 silly gunzTarPerm modified mode [ 'ci/osx/.npmignore', 420, 438 ]
+194 silly gunzTarPerm extractEntry ci/osx/binding.gyp
+195 silly gunzTarPerm modified mode [ 'ci/osx/binding.gyp', 420, 438 ]
+196 silly gunzTarPerm extractEntry ci/osx/bundle.sh
+197 silly gunzTarPerm modified mode [ 'ci/osx/bundle.sh', 420, 438 ]
+198 silly gunzTarPerm extractEntry ci/osx/node_version.sh
+199 silly gunzTarPerm modified mode [ 'ci/osx/node_version.sh', 420, 438 ]
+200 silly gunzTarPerm extractEntry ci/osx/preinstall.sh
+201 silly gunzTarPerm modified mode [ 'ci/osx/preinstall.sh', 420, 438 ]
+202 silly gunzTarPerm extractEntry ci/release.sh
+203 silly gunzTarPerm modified mode [ 'ci/release.sh', 493, 511 ]
+204 silly gunzTarPerm extractEntry ci/win/binding.gyp
+205 silly gunzTarPerm modified mode [ 'ci/win/binding.gyp', 420, 438 ]
+206 silly gunzTarPerm extractEntry ci/win/bundle.sh
+207 silly gunzTarPerm modified mode [ 'ci/win/bundle.sh', 420, 438 ]
+208 silly gunzTarPerm extractEntry ci/win/exec_with_msys.bat
+209 silly gunzTarPerm modified mode [ 'ci/win/exec_with_msys.bat', 420, 438 ]
+210 silly gunzTarPerm extractEntry ci/win/node_version.sh
+211 silly gunzTarPerm modified mode [ 'ci/win/node_version.sh', 420, 438 ]
+212 silly gunzTarPerm extractEntry ci/win/preinstall.sh
+213 silly gunzTarPerm modified mode [ 'ci/win/preinstall.sh', 420, 438 ]
+214 silly gunzTarPerm extractEntry notes.md
+215 silly gunzTarPerm modified mode [ 'notes.md', 420, 438 ]
+216 silly gunzTarPerm extractEntry prepublish.sh
+217 silly gunzTarPerm modified mode [ 'prepublish.sh', 493, 511 ]
+218 silly gentlyRm C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging\canvas-prebuilt-e6b358fe\node_modules is being purged
+219 verbose gentlyRm don't care about contents; nuking C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging\canvas-prebuilt-e6b358fe\node_modules
+220 silly doParallel preinstall 1
+221 silly preinstall canvas-prebuilt@1.6.5-prerelease.1 C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging\canvas-prebuilt-e6b358fe
+222 info lifecycle canvas-prebuilt@1.6.5-prerelease.1~preinstall: canvas-prebuilt@1.6.5-prerelease.1
+223 silly lifecycle canvas-prebuilt@1.6.5-prerelease.1~preinstall: no script for preinstall, continuing
+224 silly doReverseSerial remove 0
+225 silly doSerial move 0
+226 silly doSerial finalize 1
+227 silly finalize C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\canvas-prebuilt
+228 silly doSerial build 1
+229 silly build canvas-prebuilt@1.6.5-prerelease.1
+230 info linkStuff canvas-prebuilt@1.6.5-prerelease.1
+231 silly linkStuff canvas-prebuilt@1.6.5-prerelease.1 has C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules as its parent node_modules
+232 verbose linkBins canvas-prebuilt@1.6.5-prerelease.1
+233 verbose linkMans canvas-prebuilt@1.6.5-prerelease.1
+234 silly doSerial global-link 0
+235 silly doParallel update-linked 0
+236 silly doSerial install 1
+237 silly install canvas-prebuilt@1.6.5-prerelease.1 C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging\canvas-prebuilt-e6b358fe
+238 info lifecycle canvas-prebuilt@1.6.5-prerelease.1~install: canvas-prebuilt@1.6.5-prerelease.1
+239 verbose lifecycle canvas-prebuilt@1.6.5-prerelease.1~install: unsafe-perm in lifecycle true
+240 verbose lifecycle canvas-prebuilt@1.6.5-prerelease.1~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\canvas-prebuilt\node_modules\.bin;C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Python27;C:\Users\Yinan Li\AppData\Local\Microsoft\WindowsApps;C:\Users\Yinan Li\AppData\Roaming\npm;C:\Users\Yinan Li\AppData\Local\atom\bin
+241 verbose lifecycle canvas-prebuilt@1.6.5-prerelease.1~install: CWD: C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\canvas-prebuilt
+242 silly lifecycle canvas-prebuilt@1.6.5-prerelease.1~install: Args: [ '/d /s /c', 'node-pre-gyp install' ]
+243 silly lifecycle canvas-prebuilt@1.6.5-prerelease.1~install: Returned: code: 1  signal: null
+244 info lifecycle canvas-prebuilt@1.6.5-prerelease.1~install: Failed to exec install script
+245 verbose unlock done using C:\Users\Yinan Li\AppData\Roaming\npm-cache\_locks\staging-95db2a78efadabba.lock for C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\.staging
+246 silly rollbackFailedOptional Starting
+247 silly rollbackFailedOptional Finishing
+248 silly runTopLevelLifecycles Finishing
+249 silly install printInstalled
+250 warn enoent ENOENT: no such file or directory, open 'C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\superagent\package.json'
+251 verbose enoent ENOENT: no such file or directory, open 'C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages\node_modules\superagent\package.json'
+251 verbose enoent This is most likely not a problem with npm itself
+251 verbose enoent and is related to npm not being able to find a file.
+252 warn trace-analyzer-gh-pages@1.0.0 No repository field.
+253 verbose If you need help, you may report this error at:
+253 verbose     <https://github.com/npm/npm/issues>
+254 verbose stack Error: canvas-prebuilt@1.6.5-prerelease.1 install: `node-pre-gyp install`
+254 verbose stack Exit status 1
+254 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+254 verbose stack     at emitTwo (events.js:106:13)
+254 verbose stack     at EventEmitter.emit (events.js:191:7)
+254 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+254 verbose stack     at emitTwo (events.js:106:13)
+254 verbose stack     at ChildProcess.emit (events.js:191:7)
+254 verbose stack     at maybeClose (internal/child_process.js:920:16)
+254 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+255 verbose pkgid canvas-prebuilt@1.6.5-prerelease.1
+256 verbose cwd C:\Users\Yinan Li\Downloads\6952\trace-analyzer-gh-pages
+257 error Windows_NT 10.0.15063
+258 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "canvas-prebuilt"
+259 error node v6.11.3
+260 error npm  v3.10.10
+261 error code ELIFECYCLE
+262 error canvas-prebuilt@1.6.5-prerelease.1 install: `node-pre-gyp install`
+262 error Exit status 1
+263 error Failed at the canvas-prebuilt@1.6.5-prerelease.1 install script 'node-pre-gyp install'.
+263 error Make sure you have the latest version of node.js and npm installed.
+263 error If you do, this is most likely a problem with the canvas-prebuilt package,
+263 error not with npm itself.
+263 error Tell the author that this fails on your system:
+263 error     node-pre-gyp install
+263 error You can get information on how to open an issue for this project with:
+263 error     npm bugs canvas-prebuilt
+263 error Or if that isn't available, you can get their info via:
+263 error     npm owner ls canvas-prebuilt
+263 error There is likely additional logging output above.
+264 verbose exit [ 1, true ]
